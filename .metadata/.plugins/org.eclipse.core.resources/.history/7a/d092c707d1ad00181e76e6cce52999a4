@@ -1,0 +1,12 @@
+package com.lin.hessian.client;
+import java.net.MalformedURLException;
+import com.caucho.hessian.client.HessianProxyFactory;
+import com.liny.hessian.service.Basic;
+public class HessianClient {
+    public static void main(String[] args) throws MalformedURLException{
+        String url = "http://localhost:8080/HessianWeb/liny";
+        HessianProxyFactory factory = new HessianProxyFactory();
+        Basic basic = (Basic)factory.create(Basic.class, url);
+        System.out.println(basic.sayHello());
+    }
+}

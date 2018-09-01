@@ -1,0 +1,5 @@
+package hessianProvider;
+
+public interface IHessianService {
+	public String say();
+}

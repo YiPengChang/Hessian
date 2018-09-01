@@ -1,0 +1,10 @@
+package com.atguigu.hessianService;
+
+public class IHessianServiceImpl implements IHessianService {
+
+	public String say() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

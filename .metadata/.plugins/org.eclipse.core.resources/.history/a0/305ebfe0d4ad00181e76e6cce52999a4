@@ -1,0 +1,8 @@
+package com.atguigu.hessianService;
+
+public class IHessianServiceImpl implements IHessianService {
+
+	public String say(String name) {
+		return "hello "+ name;
+	}
+}

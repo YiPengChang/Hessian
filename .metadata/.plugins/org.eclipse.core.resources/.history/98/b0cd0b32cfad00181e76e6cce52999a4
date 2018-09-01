@@ -1,0 +1,11 @@
+package com.lin.hessian.service;
+
+import com.caucho.hessian.server.HessianServlet;
+
+public class LinyService implements Basic {
+	private String message = "wowwowowowowow";
+
+	public String sayHello() {
+		return message;
+	}
+}
